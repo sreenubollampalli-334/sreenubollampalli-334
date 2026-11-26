@@ -108,6 +108,41 @@ The goal is to bring essential business operations into a single system instead 
 
 ---
 
+## 🎓 StudySphere — AI-Powered Learning Platform
+
+A unified study workspace for college students that brings deadlines, focus sessions, course materials, and progress tracking into one place, with AI-powered tutoring, quizzes, and flashcards built in.
+
+### Key Features
+
+- 📅 Deadline & Task Tracking
+- ⏱️ Timed Focus Sessions
+- 📂 Course Materials Access
+- 📈 Progress Analytics
+- 🤖 Streaming AI Tutor (Google Gemini via Spring AI)
+- 📝 AI Quiz Generation with Server-Side Grading & Answer Explanations
+- 🧠 AI Flashcard Generation with Spaced-Repetition Scheduling
+- ✅ Human-in-the-Loop Study Plan Approval Before Tasks Are Created
+- 💬 Real-Time Messaging & Collaborative Study Rooms (WebSockets)
+- 🔐 Role-Based Access Control for Private Conversations & Resources
+- 📱 Responsive Across Desktop, Tablet & Mobile
+
+### Tech Stack
+
+**Java • Spring Boot • Spring AI • Google Gemini • WebSockets • React.js • MySQL**
+
+### Engineering Focus
+
+- AI integration with streaming responses
+- Human-in-the-loop AI workflows
+- Spaced-repetition scheduling logic
+- Real-time communication with WebSockets
+- Role-based access control
+- Automated testing: 87 tests, including 19 native MySQL integration tests
+
+🔗 **Repository:** [StudySphere](https://github.com/sreenubollampalli-334/studySphere)
+
+---
+
 ## 🏥 MediConnect — Smart Healthcare Management Platform
 
 A full-stack healthcare platform designed to digitally connect patients and healthcare providers while simplifying healthcare workflows.
